@@ -9,7 +9,7 @@ var exemplos = [
     dataPublicacao: '01 de Maio de 2020',
     titulo: 'Sistemas Legados',
     conteudo:
-      'É um sistema antigo que constantemente apresenta bugs, os desenvolvedores sentem dificuldade de fazer manutenção e incrementos. Na verdade, existem diversas definições, mas existe um conjunto de indicadores que devemos analisar.Como: Tempo de Vida, utilidade, tecnologias utilizados, dificuldade de manutenção e documentação.',
+      'É um sistema antigo que constantemente apresenta bugs, os desenvolvedores sentem dificuldade de fazer manutenção e incrementos. Na verdade, existem diversas definições, mas existe um conjunto de indicadores que devemos analisar, como: Tempo de Vida, utilidade, tecnologias utilizados, dificuldade de manutenção e documentação.',
   },
 ]
 var valorLocal = JSON.parse(localStorage.getItem('list_posts'))
