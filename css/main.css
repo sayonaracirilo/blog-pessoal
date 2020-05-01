@@ -1,0 +1,229 @@
+body {
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  color: #707070;
+}
+
+#back {
+  background-image: url('../imagens/back.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+#corpo {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+}
+#menu {
+  text-align: center;
+}
+#menuPost {
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  text-align: center;
+  padding: 3em 0 2em 0;
+}
+#headerPost {
+  text-align: center;
+}
+#header .avatar {
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0 0 1em 0;
+  padding: 0.5em;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+#header .avatar img {
+  border-radius: 100%;
+  display: block;
+  width: 10em;
+}
+
+#wrapper hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  max-width: 400px;
+}
+
+svg {
+  height: 1.5em;
+  color: #fff;
+}
+a.lixeira {
+  position: absolute;
+  right: 40px;
+}
+a.lixeira svg {
+  color: #aaa;
+}
+a.lixeira svg:hover {
+  color: #f58e8e;
+}
+
+#wrapper .iconsPessoais {
+  text-align: center;
+}
+.iconsPessoais ul {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+.iconsPessoais ul {
+  display: inline-flex;
+  padding: 0 1em 0 0;
+}
+.iconsPessoais ul li {
+  padding: 0em 1em 0em 0em;
+}
+.iconsPessoais ul li a {
+  display: inline-block;
+  padding: 0.6em;
+}
+
+#header p {
+  color: white;
+  font-size: medium;
+  font-family: 'calibri';
+}
+#descricao {
+  max-width: 800px;
+  margin: 2em 20em 0em 20em;
+}
+
+/**menu */
+
+#nav > ul > li {
+  display: inline-block;
+}
+
+#nav ul {
+  margin: 1em 5em 0em 0em;
+}
+
+#nav > ul > li:last-child {
+  padding-right: 0;
+}
+
+#nav > ul > li > a,
+#nav > ul > li > span {
+  display: block;
+  padding: 1em 1.5em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#nav > ul > li > a:hover {
+  color: #fff;
+}
+
+#nav li.active a {
+  color: #fff;
+}
+
+#nav > ul > li > ul {
+  display: none;
+}
+
+/**post */
+
+#classPage {
+  display: flex;
+}
+#classPost {
+  display: block;
+  margin: 5em 0em 3em 6.5em;
+}
+
+#post {
+  min-width: 400px;
+  padding: 50px 50px 30px 50px;
+  margin-bottom: 40px;
+  border: 1px solid #e7ebed;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#post .title {
+  padding: 7px 0px 0px 0px;
+  letter-spacing: -1px;
+}
+
+#post .title a {
+  border: none;
+  font-size: 1.5em;
+  letter-spacing: -2px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #222222;
+}
+
+#post #texto {
+  padding: 0px 0px 40px 0px;
+  text-align: justify;
+}
+
+.links {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+/** Formulario */
+
+#formulario {
+  max-width: 350px;
+  min-width: 150px;
+  max-height: 300px;
+  padding: 4em 3em 3em 2em;
+  border: 1px solid #e7ebed;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+  margin: 5em 0em 1em 5em;
+}
+#formulario fieldset {
+  border: none;
+}
+#formulario legend {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#formulario label {
+  display: block;
+  margin-bottom: 8px;
+}
+#formulario button {
+  width: 100px;
+  height: 40px;
+  background: #7a5194;
+  border-radius: 25px;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  color: #fff;
+}
+#formulario input[type='text'],
+#formulario textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  background-color: #8a8a8a29;
+  color: #8a97a0;
+  margin-bottom: 20px;
+}
+#formulario input[type='text']:focus,
+#formulario textarea:focus {
+  background: #d2d9dd;
+}
+#formulario textarea {
+  height: 100px;
+}
