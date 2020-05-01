@@ -8,11 +8,13 @@ var emailElement = document.querySelector('#email')
 
 axios
   .get('https://api.github.com/users/sayonaracirilo', {
-    headers: { Authorization: 'token d3f04fa741e20d542e1663b47ba7ce0044aeb280' },
+    headers: { Authorization: 'token 4521added41d49dd55751997bbd56cf4b48b7c6a' },
   })
   .then(function (response) {
     renderInfo(response.data)
   })
+
+console.log(response)
 
 function renderInfo(response) {
   console.log(response.avatar_url)
