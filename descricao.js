@@ -17,9 +17,6 @@ function renderInfo(response) {
 
   emailElement.innerText = '' + author.email + ''
   nomeElement.innerText = '' + author.name + ''
-
-  console.log(emailElement)
-  console.log(nomeElement)
 }
 
 renderInfo()
